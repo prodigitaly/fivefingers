@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="11" />
+        <option name="modules">
+          <set>
+            <option value="$USER_HOME$/Documents/flutter_windows_3.0.5-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_archive-5.0.0/android" />
+            <option value="$USER_HOME$/Documents/flutter_windows_3.0.5-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_inappwebview-5.7.2+3/android" />
+            <option value="$USER_HOME$/Documents/flutter_windows_3.0.5-stable/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.1.2/android" />
+            <option value="$USER_HOME$/Documents/flutter_windows_3.0.5-stable/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.22/android" />
+            <option value="$USER_HOME$/Documents/flutter_windows_3.0.5-stable/flutter/.pub-cache/hosted/pub.dartlang.org/permission_handler_android-10.2.0/android" />
+            <option value="$USER_HOME$/Documents/flutter_windows_3.0.5-stable/flutter/.pub-cache/hosted/pub.dartlang.org/qr_code_scanner-1.0.1/android" />
+            <option value="$USER_HOME$/Documents/flutter_windows_3.0.5-stable/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_android-2.0.15/android" />
+            <option value="$USER_HOME$/Documents/flutter_windows_3.0.5-stable/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter_android-3.2.1/android" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

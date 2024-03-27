@@ -1,0 +1,6 @@
+class ZoomStringConstants {
+  //     ======================= Static strings =======================     //
+
+
+
+}

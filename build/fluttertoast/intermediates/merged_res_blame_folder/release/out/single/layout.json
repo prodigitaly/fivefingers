@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\Zoom\\build\\fluttertoast\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\kudrat\\.gradle\\caches\\transforms-2\\files-2.1\\ad9df6d145816ddb84ba673ff5e5b213\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Zoom\\build\\fluttertoast\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\kudrat\\.gradle\\caches\\transforms-2\\files-2.1\\ad9df6d145816ddb84ba673ff5e5b213\\core-1.6.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Zoom\\build\\fluttertoast\\intermediates\\res\\merged\\release\\layout\\toast_custom.xml",
+        "source": "C:\\Users\\kudrat\\Documents\\flutter_windows_3.0.5-stable\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\fluttertoast-8.1.2\\android\\src\\main\\res\\layout\\toast_custom.xml"
+    },
+    {
+        "merged": "D:\\Zoom\\build\\fluttertoast\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\kudrat\\.gradle\\caches\\transforms-2\\files-2.1\\ad9df6d145816ddb84ba673ff5e5b213\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Zoom\\build\\fluttertoast\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\kudrat\\.gradle\\caches\\transforms-2\\files-2.1\\ad9df6d145816ddb84ba673ff5e5b213\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Zoom\\build\\fluttertoast\\intermediates\\res\\merged\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\kudrat\\.gradle\\caches\\transforms-2\\files-2.1\\ad9df6d145816ddb84ba673ff5e5b213\\core-1.6.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\Zoom\\build\\fluttertoast\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\kudrat\\.gradle\\caches\\transforms-2\\files-2.1\\ad9df6d145816ddb84ba673ff5e5b213\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
+    }
+]

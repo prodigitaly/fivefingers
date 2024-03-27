@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/fivefinger/education/BuildConfig.java
+ com.fivefinger.education.BuildConfig

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Zoom\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\kudrat\\.gradle\\caches\\transforms-2\\files-2.1\\ad9df6d145816ddb84ba673ff5e5b213\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\Zoom\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\kudrat\\.gradle\\caches\\transforms-2\\files-2.1\\ad9df6d145816ddb84ba673ff5e5b213\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\Zoom\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\kudrat\\.gradle\\caches\\transforms-2\\files-2.1\\ad9df6d145816ddb84ba673ff5e5b213\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\Zoom\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\toast_bg.xml",
+        "source": "C:\\Users\\kudrat\\Documents\\flutter_windows_3.0.5-stable\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\fluttertoast-8.1.2\\android\\src\\main\\res\\drawable\\toast_bg.xml"
+    },
+    {
+        "merged": "D:\\Zoom\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\corner.xml",
+        "source": "C:\\Users\\kudrat\\Documents\\flutter_windows_3.0.5-stable\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\fluttertoast-8.1.2\\android\\src\\main\\res\\drawable\\corner.xml"
+    },
+    {
+        "merged": "D:\\Zoom\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\kudrat\\.gradle\\caches\\transforms-2\\files-2.1\\ad9df6d145816ddb84ba673ff5e5b213\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+    }
+]

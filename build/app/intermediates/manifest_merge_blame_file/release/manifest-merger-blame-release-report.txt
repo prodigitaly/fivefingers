@@ -1,0 +1,262 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fivefinger.education"
+4    android:versionCode="10"
+5    android:versionName="2.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Zoom\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Zoom\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Zoom\android\app\src\main\AndroidManifest.xml:4:5-66
+11-->D:\Zoom\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\Zoom\android\app\src\main\AndroidManifest.xml:5:5-78
+12-->D:\Zoom\android\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\Zoom\android\app\src\main\AndroidManifest.xml:6:5-64
+13-->D:\Zoom\android\app\src\main\AndroidManifest.xml:6:22-62
+14    <uses-permission
+14-->D:\Zoom\android\app\src\main\AndroidManifest.xml:7:5-9:38
+15        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+15-->D:\Zoom\android\app\src\main\AndroidManifest.xml:8:9-65
+16        android:maxSdkVersion="18" />
+16-->D:\Zoom\android\app\src\main\AndroidManifest.xml:9:9-35
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->D:\Zoom\android\app\src\main\AndroidManifest.xml:10:5-79
+17-->D:\Zoom\android\app\src\main\AndroidManifest.xml:10:22-77
+18    <!-- <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/> -->
+19    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+19-->D:\Zoom\android\app\src\main\AndroidManifest.xml:12:5-79
+19-->D:\Zoom\android\app\src\main\AndroidManifest.xml:12:22-77
+20
+21    <queries>
+21-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:7:5-11:15
+22        <intent>
+22-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:8:9-10:18
+23            <action android:name="android.support.customtabs.action.CustomTabsService" />
+23-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:9:13-90
+23-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:9:21-87
+24        </intent>
+25    </queries> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+26    <uses-feature
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+27        android:name="android.hardware.camera"
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+28        android:required="false" />
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+29    <uses-feature
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+30        android:name="android.hardware.camera.front"
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+31        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+32    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+33    <uses-feature
+33-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+34        android:name="android.hardware.camera.autofocus"
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+35        android:required="false" />
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+36    <uses-feature
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+37        android:name="android.hardware.camera.flash"
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+38        android:required="false" />
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+39    <uses-feature
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+40        android:name="android.hardware.screen.landscape"
+40-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+41        android:required="false" />
+41-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+42    <uses-feature
+42-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+43        android:name="android.hardware.wifi"
+43-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+44        android:required="false" />
+44-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+45
+46    <application
+47        android:name="android.app.Application"
+47-->D:\Zoom\android\app\src\main\AndroidManifest.xml:20:9-42
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.8.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\fca4221dbc7cc3ccb305707760767703\core-1.8.0\AndroidManifest.xml:24:18-86
+49        android:icon="@mipmap/ic_launcher"
+49-->D:\Zoom\android\app\src\main\AndroidManifest.xml:21:9-43
+50        android:label="Five Fingers Education"
+50-->D:\Zoom\android\app\src\main\AndroidManifest.xml:17:9-47
+51        android:networkSecurityConfig="@xml/network_security_config"
+51-->D:\Zoom\android\app\src\main\AndroidManifest.xml:19:9-69
+52        android:requestLegacyExternalStorage="true" >
+52-->D:\Zoom\android\app\src\main\AndroidManifest.xml:18:9-52
+53        <activity
+53-->D:\Zoom\android\app\src\main\AndroidManifest.xml:23:9-44:20
+54            android:name="com.fivefinger.education.MainActivity"
+54-->D:\Zoom\android\app\src\main\AndroidManifest.xml:25:13-41
+55            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+55-->D:\Zoom\android\app\src\main\AndroidManifest.xml:29:13-163
+56            android:exported="true"
+56-->D:\Zoom\android\app\src\main\AndroidManifest.xml:26:13-36
+57            android:hardwareAccelerated="true"
+57-->D:\Zoom\android\app\src\main\AndroidManifest.xml:30:13-47
+58            android:launchMode="singleTop"
+58-->D:\Zoom\android\app\src\main\AndroidManifest.xml:27:13-43
+59            android:theme="@style/LaunchTheme"
+59-->D:\Zoom\android\app\src\main\AndroidManifest.xml:28:13-47
+60            android:windowSoftInputMode="adjustResize" >
+60-->D:\Zoom\android\app\src\main\AndroidManifest.xml:31:13-55
+61
+62            <!--
+63                 Specifies an Android theme to apply to this Activity as soon as
+64                 the Android process has started. This theme is visible to the user
+65                 while the Flutter UI initializes. After that, this theme continues
+66                 to determine the Window background behind the Flutter UI.
+67            -->
+68            <meta-data
+68-->D:\Zoom\android\app\src\main\AndroidManifest.xml:36:13-39:17
+69                android:name="io.flutter.embedding.android.NormalTheme"
+69-->D:\Zoom\android\app\src\main\AndroidManifest.xml:37:15-70
+70                android:resource="@style/NormalTheme" />
+70-->D:\Zoom\android\app\src\main\AndroidManifest.xml:38:15-52
+71
+72            <intent-filter>
+72-->D:\Zoom\android\app\src\main\AndroidManifest.xml:40:13-43:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->D:\Zoom\android\app\src\main\AndroidManifest.xml:41:17-68
+73-->D:\Zoom\android\app\src\main\AndroidManifest.xml:41:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->D:\Zoom\android\app\src\main\AndroidManifest.xml:42:17-76
+75-->D:\Zoom\android\app\src\main\AndroidManifest.xml:42:27-74
+76            </intent-filter>
+77        </activity>
+78        <!--
+79             Don't delete the meta-data below.
+80             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+81        -->
+82        <meta-data
+82-->D:\Zoom\android\app\src\main\AndroidManifest.xml:47:9-49:33
+83            android:name="flutterEmbedding"
+83-->D:\Zoom\android\app\src\main\AndroidManifest.xml:48:13-44
+84            android:value="2" />
+84-->D:\Zoom\android\app\src\main\AndroidManifest.xml:49:13-30
+85
+86        <activity
+86-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:14:9-18:47
+87            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+87-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:15:13-104
+88            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+88-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:16:13-137
+89            android:exported="false"
+89-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:17:13-37
+90            android:theme="@style/AppTheme" />
+90-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:18:13-44
+91        <activity
+91-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:19:9-22:55
+92            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+92-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:20:13-112
+93            android:exported="false"
+93-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:21:13-37
+94            android:theme="@style/ThemeTransparent" />
+94-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:22:13-52
+95        <activity
+95-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:23:9-26:55
+96            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+96-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:24:13-106
+97            android:exported="false"
+97-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:25:13-37
+98            android:theme="@style/ThemeTransparent" />
+98-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:26:13-52
+99        <activity
+99-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:27:9-31:55
+100            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+100-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:28:13-126
+101            android:exported="false"
+101-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:29:13-37
+102            android:launchMode="singleInstance"
+102-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:30:13-48
+103            android:theme="@style/ThemeTransparent" />
+103-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:31:13-52
+104        <activity
+104-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:32:9-36:55
+105            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+105-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:33:13-120
+106            android:exported="false"
+106-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:34:13-37
+107            android:launchMode="singleInstance"
+107-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:35:13-48
+108            android:theme="@style/ThemeTransparent" />
+108-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:36:13-52
+109
+110        <receiver
+110-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:38:9-41:40
+111            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+111-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:39:13-111
+112            android:enabled="true"
+112-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:40:13-35
+113            android:exported="false" />
+113-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:41:13-37
+114
+115        <meta-data
+115-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:43:9-45:36
+116            android:name="io.flutter.embedded_views_preview"
+116-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:44:13-61
+117            android:value="true" />
+117-->[:flutter_inappwebview] D:\Zoom\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:45:13-33
+118
+119        <uses-library
+119-->[androidx.window:window:1.0.0-beta04] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\5bf31c25fd6d0ee31f4f657c4efed2cb\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+120            android:name="androidx.window.extensions"
+120-->[androidx.window:window:1.0.0-beta04] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\5bf31c25fd6d0ee31f4f657c4efed2cb\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+121            android:required="false" />
+121-->[androidx.window:window:1.0.0-beta04] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\5bf31c25fd6d0ee31f4f657c4efed2cb\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+122        <uses-library
+122-->[androidx.window:window:1.0.0-beta04] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\5bf31c25fd6d0ee31f4f657c4efed2cb\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+123            android:name="androidx.window.sidecar"
+123-->[androidx.window:window:1.0.0-beta04] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\5bf31c25fd6d0ee31f4f657c4efed2cb\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+124            android:required="false" />
+124-->[androidx.window:window:1.0.0-beta04] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\5bf31c25fd6d0ee31f4f657c4efed2cb\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+125
+126        <provider
+126-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\5e82392418bd5cc705b6f0151248d27c\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+127            android:name="androidx.startup.InitializationProvider"
+127-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\5e82392418bd5cc705b6f0151248d27c\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+128            android:authorities="com.fivefinger.education.androidx-startup"
+128-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\5e82392418bd5cc705b6f0151248d27c\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+129            android:exported="false" >
+129-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\5e82392418bd5cc705b6f0151248d27c\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+130            <meta-data
+130-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\5e82392418bd5cc705b6f0151248d27c\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+131                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+131-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\5e82392418bd5cc705b6f0151248d27c\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+132                android:value="androidx.startup" />
+132-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\5e82392418bd5cc705b6f0151248d27c\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+133            <meta-data
+133-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\715ed499f13f1038e7b29ac45dd7bb2b\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+134                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+134-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\715ed499f13f1038e7b29ac45dd7bb2b\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+135                android:value="androidx.startup" />
+135-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\715ed499f13f1038e7b29ac45dd7bb2b\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+136        </provider>
+137
+138        <activity
+138-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+139            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+139-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+140            android:clearTaskOnLaunch="true"
+140-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+141            android:screenOrientation="sensorLandscape"
+141-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+142            android:stateNotNeeded="true"
+142-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+143            android:theme="@style/zxing_CaptureTheme"
+143-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+144            android:windowSoftInputMode="stateAlwaysHidden" />
+144-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\kudrat\.gradle\caches\transforms-2\files-2.1\6d973ddb34d61ee5978cc641cd743c27\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+145    </application>
+146
+147</manifest>
